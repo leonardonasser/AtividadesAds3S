@@ -1,0 +1,15 @@
+EXERCÍCIO 2
+
+  Como foi dito no exercicio um, o encapsulamento tem objeto em proteger os dados não deixando ter acesso diretamente com os atributos e métodos, para isso então existe os métodos acessores e modificadores(Getters e setters), o setters com objetivo de modificar atributos de uma forma protegida como também possibilita ter de mudar algo em um só lugar.
+
+Exemplo:
+
+
+public class SistemaLoja {
+    public static void main(String[] args){
+	Cliente c1 = new Cliente("Leoanardo","029.570.090-48",18,4433457689);
+
+	c1.mudarNumero(44998906578);	
+	c1.setNome("Leonardo Nasser");
+    }
+}

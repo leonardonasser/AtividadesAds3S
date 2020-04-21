@@ -1,0 +1,36 @@
+EXERCÍCIO 1
+
+ Encapsulamento em POO tem objetivo em dividir o programa em partes e também ele impede o acesso aos dados por um meio diferente dos serviços propostos, assim controlando o acesso aos atributos e métodos para poder proteger os dados da classe, assim deixando o sistema mais flexível, simples de modificar e poder até criar novas implementações. 
+
+EXEMPLO: 
+
+Em meu sistema de loja mostrarei um exemplo de encapsulamento:
+
+public class Clientes {
+
+    private String nome;
+    private String cpf;	 
+    private int idade;
+    private int numeroTel;
+
+
+    public Livro(String nome, String cpf, int idade, int numeroTel) { 
+        this.nome = nome; 
+        this.cpf = cpf; 
+   	this.idade = idade;
+	this.numeroTel = numeroTel; 
+   }
+
+} 
+
+Em seguida eu irei instanciar ela e criarei um objeto de "Clientes":
+
+public class SistemaLoja {
+    public static void main(String[] args){
+	Cliente c1 = new Cliente("João","029.570.090-48",22,4433457689);	
+    }
+}
+
+
+
+

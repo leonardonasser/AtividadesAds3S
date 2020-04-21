@@ -1,0 +1,9 @@
+REFERÊNCIAS:
+
+https://www.devmedia.com.br/get-e-set-metodos-acessores-em-java/29241
+
+https://br.ccm.net/contents/413-poo-encapsulamento-dos-dados
+
+https://www.alura.com.br/artigos/o-que-e-encapsulamento
+
+https://www.caelum.com.br/apostila-java-orientacao-objetos/modificadores-de-acesso-e-atributos-de-classe/#getters-e-setters
